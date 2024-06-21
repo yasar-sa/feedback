@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+body{
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    height: 50px;
+    width: 400px;
+    border-radius: 9px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+}
+.r2{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.r3{
+    margin-left: 60px;
+}
+
+.profile{
+    background-color: hsl(300, 43%, 22%);
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+.p1{
+    margin-bottom: 30px;
+}
+.p2{
+    margin-top: 20px;
+}
+
+.p3{
+    margin-top: 50px;
+}
+
+.namecard{
+    display: flex;
+    align-items: center;
+}
+
+.designation{
+    padding-top: 5px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 300;
+}
+
+.names{
+    color: white;
+}
+
+.quotes p{
+    color: white;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.namecard img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.name{
+    padding-left: 20px;
+}
+
+
+
+.head h1{
+    color: hsl(300, 43%, 22%) ;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.head p{
+    color: hsl(303, 10%, 53%);
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* .whole{
+    display: flex;
+    flex-direction: column;
+    align-items: cen;
+
+} */
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55vh;
+}
+
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
